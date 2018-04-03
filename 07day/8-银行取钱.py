@@ -1,13 +1,13 @@
-acc =input("请输入账号")
-passwd = input("请输入密码")
-need_money = input("请输入取款金额")
-money = 5000
-shengyu = money - need_money
-if acc == "123456" and passwd == "111":
-	print("开始取钱")
+iaccout = "123456"
+passwd = "111111"
+money = 50000
+s_accout = input("请输入账户")
+s_passwd = input("请输入密码")
+if s_accout == iaccout and s_passwd == passwd:
+	q_money = float(input("请输入取钱金额"))
+	if money < q_money:
+		print("没钱取毛线")
+	else:
+	   	print("取了%f钱，还剩%f钱"%(q_money,money-q_money))
 else:
-	print("非法账户")
-if money >= 100 and money <= 5000:
- 	print("shengyu")
-else:
-	print("没钱去毛线")
+		print("非法账户")
