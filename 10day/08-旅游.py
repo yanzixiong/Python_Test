@@ -1,0 +1,10 @@
+place = ["丽江古城","西双版纳","拉萨","三亚","呼伦贝尔"]
+print(place)
+place.reverse()
+print(place)
+place.reverse()
+print(place)
+place.sort()
+print(place)
+place.sort(reverse=True)
+print(place)

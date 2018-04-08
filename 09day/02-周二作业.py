@@ -1,5 +1,6 @@
 i = 1
-b = i+1 
-c = i-b
+c = 0
 while i < 100:
-	
+	i+=2
+	c = (i-(i+1))+c
+print(c)
